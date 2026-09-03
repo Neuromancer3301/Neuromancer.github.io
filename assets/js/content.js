@@ -62,7 +62,6 @@ const SITE = {
     "Right now I'm deep in software development and problem solving, always " +
       "looking for things that make me think. Big on learning, chess, reading, " +
       "and imagining random ideas in my head.",
-    "The handle's from a Gibson novel I read too young and never quite got over.",
   ],
 
   /* ==========================================================================
