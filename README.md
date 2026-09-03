@@ -2,7 +2,7 @@
 
 My portfolio — projects, research, academic achievements, and contact details.
 
-**Live site:** `[your live URL — fill in after deployment]`
+**Live site:** https://neuromancer3301.github.io/Neuromancer.github.io/
 
 Built with semantic HTML5, CSS3 and vanilla JavaScript. No frameworks, no build
 step, no dependencies, no backend. Clone it and open `index.html`.
@@ -137,9 +137,11 @@ On [github.com/new](https://github.com/new), create a repository and **set the
 visibility to Public** (the assignment requires this; GitHub Pages also needs it
 on free accounts).
 
-Naming it exactly `<your-username>.github.io` gives you the clean URL
-`https://<your-username>.github.io`. Any other name works too and gives you
-`https://<your-username>.github.io/<repo-name>/`.
+This repo is named `Neuromancer.github.io`, which GitHub treats as an ordinary
+project repository (a *user page* requires the name to match the username
+exactly, i.e. `Neuromancer3301.github.io`). It therefore publishes to
+`https://neuromancer3301.github.io/Neuromancer.github.io/`. All asset paths in
+this site are relative, so it works correctly at that subpath.
 
 Do **not** tick "Add a README" — this folder already has one.
 
