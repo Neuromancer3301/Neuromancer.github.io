@@ -177,6 +177,7 @@ const SITE = {
     {
       period: "2021",
       title: "Secondary School Certificate",
+      org: "Netpro Model School & College",
       kind: "education",
     },
   ],
