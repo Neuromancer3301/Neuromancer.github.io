@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Portfolio</title>
+<meta name="description" content="Personal portfolio — projects, research, academic achievements and contact details of a Computer Science and Engineering undergraduate at the Islamic University of Technology.">
+<meta name="theme-color" content="#0b0d10">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Portfolio">
+<meta property="og:description" content="Projects, research, achievements and contact.">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230b0d10'/><circle cx='50' cy='50' r='20' fill='none' stroke='%23e8a33d' stroke-width='8'/></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<!-- Apply the saved theme before first paint so there is no light/dark flash. -->
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem("portfolio-theme");
+      if (!t) t = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", t);
+    } catch (e) { /* private browsing — keep the default */ }
+  })();
+</script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Core identity stays readable with JavaScript disabled. -->
+<noscript>
+  <div class="noscript">
+    <h1>Portfolio</h1>
+    <p>Computer Science and Engineering undergraduate, Islamic University of Technology.</p>
+    <p><a href="mailto:shafeensufian56@gmail.com">shafeensufian56@gmail.com</a></p>
+    <p>This site renders its content with JavaScript. Please enable it to view the full portfolio.</p>
+  </div>
+</noscript>
+
+<div class="grain" aria-hidden="true"></div>
+
+<div class="shell">
+
+  <!-- ══ HERO / identity rail — sticky beside the content on desktop ══════ -->
+  <header class="rail">
+    <div class="rail-inner">
+      <div class="mark" data-js="initials" aria-hidden="true"></div>
+
+      <p class="hero-eyebrow">Portfolio</p>
+      <h1 class="name" data-js="name"></h1>
+      <p class="role">
+        <span data-js="role"></span>
+        <span class="sep" aria-hidden="true">·</span>
+        <span data-js="org"></span>
+      </p>
+      <p class="tagline" data-js="tagline"></p>
+
+      <nav class="nav" aria-label="Section navigation">
+        <ul data-js="nav"></ul>
+      </nav>
+
+      <ul class="socials" data-js="socials"></ul>
+
+      <div class="rail-actions">
+        <a class="btn btn-primary" data-js="mailto" href="#contact">Get in touch</a>
+        <a class="btn" data-js="resume" href="#" hidden>Résumé</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══ CONTENT ═════════════════════════════════════════════════════════ -->
+  <main id="main" class="content">
+
+    <section id="about" class="sec" data-label="About" aria-labelledby="h-about">
+      <h2 class="sec-title" id="h-about"><span class="num" aria-hidden="true">01</span> About</h2>
+      <div class="prose" data-js="about"></div>
+    </section>
+
+    <section id="skills" class="sec" data-label="Skills" aria-labelledby="h-skills" hidden>
+      <h2 class="sec-title" id="h-skills"><span class="num" aria-hidden="true">02</span> Skills</h2>
+      <div class="skills" data-js="skills"></div>
+    </section>
+
+    <section id="projects" class="sec" data-label="Projects" aria-labelledby="h-projects" hidden>
+      <h2 class="sec-title" id="h-projects"><span class="num" aria-hidden="true">03</span> Projects</h2>
+      <div class="projects" data-js="projects"></div>
+    </section>
+
+    <section id="achievements" class="sec" data-label="Achievements" aria-labelledby="h-ach" hidden>
+      <h2 class="sec-title" id="h-ach"><span class="num" aria-hidden="true">04</span> Academic Achievements</h2>
+      <ul class="awards" data-js="achievements"></ul>
+    </section>
+
+    <section id="research" class="sec" data-label="Research" aria-labelledby="h-res" hidden>
+      <h2 class="sec-title" id="h-res"><span class="num" aria-hidden="true">05</span> Research</h2>
+      <div class="projects" data-js="research"></div>
+    </section>
+
+    <section id="experience" class="sec" data-label="Experience" aria-labelledby="h-exp" hidden>
+      <h2 class="sec-title" id="h-exp"><span class="num" aria-hidden="true">06</span> Education &amp; Experience</h2>
+      <ol class="timeline" data-js="timeline"></ol>
+    </section>
+
+    <section id="leadership" class="sec" data-label="Leadership" aria-labelledby="h-lead" hidden>
+      <h2 class="sec-title" id="h-lead"><span class="num" aria-hidden="true">07</span> Leadership &amp; Community</h2>
+      <div class="projects" data-js="leadership"></div>
+    </section>
+
+    <section id="writing" class="sec" data-label="Writing" aria-labelledby="h-writ" hidden>
+      <h2 class="sec-title" id="h-writ"><span class="num" aria-hidden="true">08</span> Writing</h2>
+      <ul class="posts" data-js="writing"></ul>
+    </section>
+
+    <section id="interests" class="sec" data-label="Interests" aria-labelledby="h-int" hidden>
+      <h2 class="sec-title" id="h-int"><span class="num" aria-hidden="true">09</span> Beyond Code</h2>
+      <div class="interests" data-js="interests"></div>
+      <div class="gallery" data-js="gallery"></div>
+    </section>
+
+    <section id="contact" class="sec" data-label="Contact" aria-labelledby="h-con">
+      <h2 class="sec-title" id="h-con"><span class="num" aria-hidden="true">10</span> Contact</h2>
+      <p class="prose contact-lede">
+        Email is the surest way to reach me. I'm open to internships,
+        collaboration on interesting problems, and conversations that start
+        with &ldquo;have you seen this?&rdquo;
+      </p>
+      <ul class="contact-list" data-js="contact"></ul>
+    </section>
+
+    <footer class="foot">
+      <p data-js="footerNote"></p>
+      <p class="foot-meta">
+        <span data-js="copyright"></span>
+        <button class="theme-toggle" data-js="theme" type="button" aria-pressed="true">
+          <span class="theme-dot" aria-hidden="true"></span>
+          <span>Theme: <span data-js="themeLabel">Dark</span></span>
+        </button>
+      </p>
+    </footer>
+
+  </main>
+</div>
+
+<script src="assets/js/content.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
