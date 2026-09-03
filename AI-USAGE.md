@@ -115,7 +115,7 @@ to proceed and asked me to supply them.*
 
 > is it done?
 
-*The assistant reported that the site was built but the assignment was not yet
+*The assistant reported that the site was built but the assignment was not
 complete: the content was still placeholder, nothing had been deployed, and this
 disclosure document was unfinished.*
 
@@ -145,8 +145,7 @@ disclosure document was unfinished.*
 >
 > **Information architecture:** Hero, About, Skills, Projects, Academic
 > Achievements, Research, Experience (future-ready), Leadership & Community,
-> Gallery or Interests, Contact, Footer — with future sections easy to add
-> without redesigning the site.
+> Gallery or Interests, Contact, Footer.
 >
 > **UX requirements:** smooth scrolling, active navigation highlighting, subtle
 > animations, hover interactions, responsive cards, consistent spacing system,
@@ -169,12 +168,76 @@ disclosure document was unfinished.*
 > under fourteen specified headings. If any instruction is ambiguous, state the
 > assumption, choose the safest grading-friendly implementation, and continue.
 
----
-
-> **[KEEP THIS LOG UP TO DATE.]** Append every further prompt you send, in order,
-> before you submit. This log is itself a graded deliverable, and an incomplete
-> one undermines the point of the exercise.
-
 ### Prompt 5
 
-> _[next prompt goes here]_
+> so is it deployed yet?
+
+### Prompt 6
+
+> tell me the step by step how to do so
+
+### Prompt 7
+
+> so I've changed some of the files that you've provided, please check and make
+> them the way they were
+
+*I had edited `content.js` myself to add my real name, email, GitHub and
+LinkedIn, and had commented out the sections I had not filled in. In doing so I
+left an unmatched closing bracket, which broke the file and made the whole site
+render blank. The assistant found and fixed that one line, and kept my own
+content rather than reverting it.*
+
+### Prompt 8
+
+> tell me step by steps on what I need to do
+
+### Prompt 9
+
+> write the ABOUT part
+
+### Prompt 10
+
+> make it much more casual
+
+### Prompt 11
+
+> add neuromancer line
+
+### Prompt 12
+
+> *(Supplied my real content for the site: the About text, three projects —
+> Dynamics Engine, Simple FSM and Project AMTA, with descriptions, tech stacks
+> and repository links; three achievements — Bangladesh Olympiad in Informatics
+> 2023, University Physics Competition silver medal 2025, IUT Excellence Award
+> 2026; my university, HSC and SSC dates; my interests; and the GitHub
+> repository name.)*
+
+### Prompt 13
+
+> I've used that repo name, follow that
+
+### Prompt 14
+
+> Settings → Pages → Deploy from a branch → main → / (root) → Save what's this?
+
+### Prompt 15
+
+> remove this line: "The handle's from a Gibson novel I read too young and never
+> quite got over."
+
+### Prompt 16
+
+> add netpro model school & college in ssc section
+
+### Prompt 17
+
+> has all of them been updated?
+
+### Prompt 18
+
+> can you give me the prompt history?
+
+---
+
+> **[KEEP THIS LOG UP TO DATE.]** Append any further prompts, in order, before
+> you submit. This log is itself a graded deliverable.
